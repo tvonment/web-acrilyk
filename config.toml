@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "http://examplesite.com/"
-title = "Vex | hugo landing page template"
+title = "Acrily-K"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -8,6 +8,8 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
+defaultContentLanguage = "es"
+
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -47,32 +49,11 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
-url = "products"
-weight = 2
-
-[[menu.main]]
-name = "Blog"
-url = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
-weight = 4
-
-[[menu.main]]
 name = "Contact"
 url = "contact"
 weight = 5
 
 # footer menu
-[[menu.footer]]
-name = "Blog"
-url = "blog"
-weight = 1
-
 [[menu.footer]]
 name = "Contact"
 url = "contact"
@@ -91,7 +72,7 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/acryli-k-logo.png"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
@@ -116,20 +97,10 @@ mailchimp_form_name = "KEY" # replace this code with yours
 
 
 ################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+[Languages.es]
+languageName = "Es"
+languageCode = "es-ms"
+contentDir = "content/spanish"
 weight = 1
-# copyright
-copyright = "Designed By Thomas von Mentlen"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
 # copyright
 copyright = "Designed By Thomas von Mentlen"
