@@ -1,14 +1,23 @@
 - id: "add_to_cart"
   translation: "Add to Cart"
   
+- id: "yname"
+  translation: "Nombre"
+
+- id: "yphone"
+  translation: "Teléfono"
+
+- id: "yemail"
+  translation: "Correo electrónico"
+
+- id: "ymessage"
+  translation: "Tu mensaje"
+
 - id: "send"
-  translation: "Send Now"
+  translation: "Enviar"
   
 - id: "subscribe"
   translation: "Subscribe"
   
 - id: "read_more"
   translation: "Read More"
-  
-- id: "subscribe"
-  translation: "Subscribe"
