@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<head>
-<style>
-  body {
-    background-color: #f6f6f6;
-  }
-  section {
-    text-align: center;
-  }
-  img {
-    width: 100%;
-    max-width: 50em;
-  }
-</style>
-</head>
-<body>
-  <section>
-    <a href="https://www.instagram.com/acryli.k/">
-      <img src="/images/acryli-k.png" alt="welcome image">
-    </a>  
-  </section>
-</body>
+{{ define "main" }}
+
+  {{- partial "banner.html" . }}
+
+  {{- partial "promo.html" . }}
+
+  {{- partial "about-product.html" . }}
+
+  {{- partial "products.html" . }}
+
+  {{- partial "subscription.html" . }}
+
+  {{- partial "testimonials.html" . }}
+
+{{ end }}

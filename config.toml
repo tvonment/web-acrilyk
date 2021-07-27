@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
-title = "Vex | hugo landing page template"
+baseurl = "https://acryli-k.azureedge.net/"
+title = "Acrily-K"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
@@ -8,6 +8,8 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
+defaultContentLanguage = "es"
+
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -24,8 +26,8 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/themefisher-font/themefisher-font.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.min.css"
-[[params.plugins.css]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+# [[params.plugins.css]]
+# link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -34,8 +36,8 @@ link = "plugins/jquery/jquery.js"
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+# [[params.plugins.js]]
+# link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 
 
 ###################################### Navigation ######################################
@@ -47,34 +49,13 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
-url = "products"
-weight = 2
-
-[[menu.main]]
-name = "Blog"
-url = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
+name = "Contacto"
 url = "contact"
 weight = 5
 
 # footer menu
 [[menu.footer]]
-name = "Blog"
-url = "blog"
-weight = 1
-
-[[menu.footer]]
-name = "Contact"
+name = "Contacto"
 url = "contact"
 weight = 2
 
@@ -91,17 +72,17 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/acryli-k-logo.png"
 logo_width = "100px"
 # Meta data
-description = "This is meta description"
+description = "Ideas en Acrílico"
 author = "Thomas"
 # currency
 currency = "$"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # snipcart public api key
-snipcart_api = "KEY"
+snipcart_api = ""
 
 # Preloader
 [params.preloader]
@@ -111,25 +92,15 @@ preloader = "" # use .png , .svg or .gif format
 # Subscription
 [params.subscription]
 # mailchimp subsciption
-mailchimp_form_action = "LINK" # replace this url with yours
-mailchimp_form_name = "KEY" # replace this code with yours
+mailchimp_form_action = "" # replace this url with yours
+mailchimp_form_name = "" # replace this code with yours
 
 
 ################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+[Languages.es]
+languageName = "Es"
+languageCode = "es-ms"
+contentDir = "content/spanish"
 weight = 1
 # copyright
-copyright = "Designed By Thomas von Mentlen"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By Thomas von Mentlen"
+copyright = "Designed by Thomas von Mentlen"

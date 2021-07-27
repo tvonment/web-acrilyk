@@ -1,0 +1,105 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Ideas en Acrílico"
+  content : "Somos una empresa mexicana dedicada a la fabricación de artículos en acrílico.<br />
+Elaboramos proyectos personalizados al gusto del cliente tanto para el hogar como para empresas.<br />
+Transformamos en realidad las ideas de nuestros clientes.<br />
+¡¡Cualquier idea es posible en Acryli-K!!
+"
+  image : "images/acryli-k.png"
+  button:
+   enable : true
+   label : "Instagram"
+   link : "https://www.instagram.com/acryli.k/"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  images : 
+    - "images/promo/01.jpg"
+    - "images/promo/11.jpg"
+    - "images/promo/12.jpg"
+    - "images/promo/14.jpg"
+
+  title : "Proyectos Especiales"
+  content : "Derivado de los nuevos requerimientos para la reapertura de negocios y oficinas en México;<br />
+  Acryli-K ofrece soluciones en mamparas y barreras físicas acrílicas que ayudan a reducir las posibilidades de contagio de COVID-19 y de otros agentes patógenos de transmisión aérea."
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Artículos para Empresas"
+  items:
+    # about product item loop
+    - images : 
+        - "images/products/02.jpg"
+        - "images/products/03.jpg"
+        - "images/products/04.jpg"
+        - "images/products/13.jpg"
+        - "images/products/15.jpg"
+        - "images/products/16.jpg"
+
+      title : ""
+      content : "Contamos con un sinfín de opciones para organizar tu oficina y negocio;<br />
+      así como proyectos personalizados específicos para cada cliente."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - images : 
+      - "images/more/05.jpg"
+      - "images/more/06.jpg"
+      - "images/more/07.jpg"
+      - "images/more/08.jpg"
+      - "images/more/09.jpg"
+      - "images/more/10.jpg"
+
+
+      title : "Organiza tu casa"
+      content : "Sin importar el tamaño del espacio, siempre contamos con buenas opciones para organizar hasta el lugar más pequeño de la casa."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : false
+  title : "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Obtén las ultimas actualizaciones"
+  content : "Suscríbete y recibe las últimas tendencias en acrílico"
+  placeholder : "Escribe tu correo electrónico"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Las creadoras de Acryli-K hablando…"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Mariana Gabarro"
+      designation : "Acryli-K"
+      image : "images/mariana-01.png"
+      content : "La creatividad y la innovación son piezas fundamentales a la hora de desarrollar nuevos proyectos. 
+      Escuchar las necesidades e ideas de nuestros clientes es fundamental antes de proponer.<br />
+      Los retos y lo imposible son el conjunto que me inspira a intentar una y otra vez hasta que sea una realidad."
+      
+    # testimonial item loop
+    - name : "Paola Becerril"
+      designation : "Acryli-K"
+      image : "images/mariana-01.png"
+      content : "El enfrentar obstáculos, dificultades, desánimo, aburrimiento, frustración o los propios deseos de no rendirme, han hecho aumentar mi capacidad de perseverancia. 
+      El proyecto Acryli-K es posible gracias al trabajo en conjunto que involucra entender las ideas del cliente y juntos hacerlas realidad."
+      
