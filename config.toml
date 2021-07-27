@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://icy-ground-07f0ffa10-1.centralus.azurestaticapps.net/"
+baseurl = "https://acryli-k.azureedge.net/"
 title = "Acrily-K"
 theme = "vex-hugo"
 # post excert
