@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://acryli-k.azureedge.net/"
+baseurl = "https://www.acryli-k.com/"
 title = "Acrily-K"
 theme = "vex-hugo"
 # post excert
