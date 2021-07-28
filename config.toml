@@ -60,12 +60,12 @@ url = "contact"
 weight = 2
 
 [[menu.footer]]
-name = "Terms & Conditions"
+name = "Términos y condiciones"
 url = "terms-conditions"
 weight = 3
 
 [[menu.footer]]
-name = "Privacy Policy"
+name = "Política de privacidad"
 url = "privacy-policy"
 weight = 4
 
@@ -80,7 +80,7 @@ author = "Thomas"
 # currency
 currency = "$"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mwkarpvk" # contact form works with https://formspree.io
 # snipcart public api key
 snipcart_api = ""
 
