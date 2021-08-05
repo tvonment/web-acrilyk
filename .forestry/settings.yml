@@ -4,16 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: content/spanish
-  label: Spanish
-  create: all
+- type: document
+  path: data/es/homepage.yml
+  label: Contenido
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+- type: document
+  path: content/spanish/contact/_index.md
+  label: Contacto
+  match: "**/*"
+- type: document
+  path: content/spanish/terms-conditions/_index.md
+  label: Términos y condiciones
+  match: "**/*"
+- type: document
+  path: content/spanish/privacy-policy/_index.md
+  label: " Política de privacidad"
+  match: "**/*"
+- type: document
+  path: i18n/es.yaml
+  label: Idioma
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
